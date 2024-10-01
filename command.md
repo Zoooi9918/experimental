@@ -26,3 +26,9 @@ git log --oneline
 差异
 git diff
 git diff 1c6680d -- Price.md
+
+连接 本地 远端 储存库
+git remote add origin https://github.com/Zoooi9918/experimental.git
+git branch -M main
+git push -u origin main
+
